@@ -50,7 +50,7 @@
                         </li>
                         <!-- Nav item -->
                         <li class="nav-item {{ $active == 'educations' ? 'active' : '' }}">
-                            <a class="nav-link" href="profile-privacy.html">
+                            <a class="nav-link" href="{{ route('educations') }}">
                                 <i class="fe fe-clipboard nav-icon"></i>Educations</a>
                         </li>
                         <!-- Nav item -->
