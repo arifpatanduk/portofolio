@@ -19,7 +19,7 @@ use Illuminate\Support\Facades\Route;
 // });
 
 // Route::get('/', [PagesController::class, 'index'])->name('index');
-Route::get('/', [PagesController::class, 'personalDetails'])->name('personal-details');
+Route::get('/', [PagesController::class, 'profile'])->name('profile');
 Route::get('/social-profiles', [PagesController::class, 'social'])->name('social');
 Route::get('/skills', [PagesController::class, 'skills'])->name('skills');
 Route::get('/education', [PagesController::class, 'education'])->name('education');

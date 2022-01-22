@@ -33,9 +33,8 @@
                     <!-- List -->
                     <ul class="list-unstyled ms-n2 mb-0">
                         <!-- Nav item -->
-                        <li class="nav-item {{ $active == 'personal' ? 'active' : '' }}">
-                            <a class="nav-link " href="{{ route('personal-details') }}"><i
-                                    class="fe fe-user nav-icon"></i>
+                        <li class="nav-item {{ $active == 'profile' ? 'active' : '' }}">
+                            <a class="nav-link " href="{{ route('profile') }}"><i class="fe fe-user nav-icon"></i>
                                 Profile
                             </a>
                         </li>
