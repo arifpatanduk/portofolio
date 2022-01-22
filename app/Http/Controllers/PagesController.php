@@ -23,4 +23,10 @@ class PagesController extends Controller
         $active = 'social';
         return view('pages.social', compact('active'));
     }
+
+    public function skills()
+    {
+        $active = 'skills';
+        return view('pages.skills', compact('active'));
+    }
 }

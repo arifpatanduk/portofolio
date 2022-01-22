@@ -74,6 +74,7 @@
 
     @yield('content')
 
+    {{-- <script src="https://kit.fontawesome.com/d920525538.js" crossorigin="anonymous"></script> --}}
 
 
     {{-- template --}}

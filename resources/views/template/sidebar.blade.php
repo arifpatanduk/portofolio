@@ -44,12 +44,12 @@
                                 Social Profiles
                             </a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="notifications.html"><i
-                                    class="fe fe-settings nav-icon"></i>Skills</a>
+                        <li class="nav-item {{ $active == 'skills' ? 'active' : '' }}">
+                            <a class="nav-link" href="{{ route('skills') }}"><i
+                                    class="fe fe-bar-chart-2 nav-icon"></i>Skills</a>
                         </li>
                         <!-- Nav item -->
-                        <li class="nav-item">
+                        <li class="nav-item {{ $active == 'educations' ? 'active' : '' }}">
                             <a class="nav-link" href="profile-privacy.html">
                                 <i class="fe fe-clipboard nav-icon"></i>Educations</a>
                         </li>
