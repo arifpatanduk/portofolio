@@ -54,14 +54,14 @@
                                 <i class="fe fe-clipboard nav-icon"></i>Educations</a>
                         </li>
                         <!-- Nav item -->
-                        <li class="nav-item">
-                            <a class="nav-link" href="delete-profile.html"><i
-                                    class="fe fe-archive nav-icon"></i>Experiences</a>
+                        <li class="nav-item {{ $active == 'experiences' ? 'active' : '' }} ">
+                            <a class="nav-link" href="{{ route('experiences') }}"><i
+                                    class="fe fe-archive nav-icon"></i>Work Experiences</a>
                         </li>
                         <!-- Nav item -->
                         <li class="nav-item">
                             <a class="nav-link " href="linked-accounts.html"><i
-                                    class="fe fe-activity nav-icon"></i>Projects</a>
+                                    class="fe fe-activity nav-icon"></i>Portofolio</a>
                         </li>
                     </ul>
                 </div>

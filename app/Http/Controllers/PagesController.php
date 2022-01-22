@@ -35,4 +35,10 @@ class PagesController extends Controller
         $active = 'educations';
         return view('pages.educations', compact('active'));
     }
+
+    public function experiences()
+    {
+        $active = 'experiences';
+        return view('pages.experiences', compact('active'));
+    }
 }
