@@ -24,6 +24,7 @@
                         arif.patanduk
                     </a>
                 </h4>
+                <small class="text-muted">instagram.com/arif.patanduk</small>
             </div>
         </div>
         <!-- LinkedIn -->
@@ -56,6 +57,7 @@
                         arifpatanduk
                     </a>
                 </h4>
+                <small class="text-muted">github.com/arifpatanduk</small>
             </div>
         </div>
     </div>
