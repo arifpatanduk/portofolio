@@ -31,17 +31,10 @@ background-position: center;
                 </div>
             </div>
             <div class="col-lg-4 col-md-4 col-12">
-                {{-- <li class="px-3 d-grid">
-                </li> --}}
                 <div class="fs-4 mt-4 mt-lg-0 pb-2 pb-lg-0 d-lg-flex justify-content-end">
-                    <a href="../pages/dashboard/admin-dashboard.html" class="btn btn-sm btn-outline-primary">
+                    <a href="{{ Storage::url('CV_ArifWiranataPatanduk.pdf'); }}" class="btn btn-sm btn-outline-primary">
                         Download Resume
                     </a>
-                    {{-- <a href="#" class="mdi mdi-youtube text-muted me-2"></a>
-                    <a href="#" class="mdi mdi-link-variant text-muted me-2"></a>
-                    <a href="#" class="mdi mdi-instagram text-muted me-2"></a>
-                    <a href="#" class="mdi mdi-facebook text-muted me-2"></a>
-                    <a href="#" class="mdi mdi-twitter text-muted"></a> --}}
                 </div>
             </div>
         </div>

@@ -5,12 +5,11 @@
         <div class="card-body">
             <h4>About me</h4>
             <p>
-                I am an Innovation designer focussing on UX/UI based in
-                Berlin. As a creative resident at Figma explored the city of
-                the future and how new technologies like AI, voice control,
-                and augmented reality will change our interfaces.
+                I am a software developer focused on web application development living in Surakarta, Indonesia. As a
+                developer, I
+                always
+                try to make each of my work responsive, powerful, and easy to use.
             </p>
-            <a href="#" class="btn-link"> Read more</a>
         </div>
     </div>
     <!-- Card -->
@@ -32,14 +31,14 @@
                     {{-- <span class="navbar-header">Account Settings</span> --}}
                     <!-- List -->
                     <ul class="list-unstyled ms-n2 mb-0">
+                        <li class="nav-item {{ $active == 'portofolio' ? 'active' : '' }}">
+                            <a class="nav-link " href="{{ route('portofolio') }}"><i
+                                    class="fe fe-activity nav-icon"></i>Portofolio</a>
+                        </li>
                         <li class="nav-item {{ $active == 'profile' ? 'active' : '' }}">
                             <a class="nav-link " href="{{ route('profile') }}"><i class="fe fe-user nav-icon"></i>
                                 Profile
                             </a>
-                        </li>
-                        <li class="nav-item {{ $active == 'portofolio' ? 'active' : '' }}">
-                            <a class="nav-link " href="{{ route('portofolio') }}"><i
-                                    class="fe fe-activity nav-icon"></i>Portofolio</a>
                         </li>
                         <li class="nav-item {{ $active == 'social' ? 'active' : '' }}">
                             <a class="nav-link" href="{{ route('social') }}"><i class="fe fe-refresh-cw nav-icon"></i>

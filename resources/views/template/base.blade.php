@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/images/favicon/logo.png') }}">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('images/logo.svg') }}">
 
     {{-- template styles --}}
     <link href="{{ asset('css/libs/fonts/feather/feather.min.css') }}" rel="stylesheet" />
