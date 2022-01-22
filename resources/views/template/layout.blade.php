@@ -3,8 +3,8 @@
 @section('content')
 
 <!-- Bg -->
-<div class="py-10" style="
-background: url(../assets/images/background/profile-bg.jpg) no-repeat;
+<div class="py-7" style="
+background-color: #3b3b3d;
 background-position: center;
 ">
 </div>

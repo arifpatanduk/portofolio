@@ -67,11 +67,7 @@
 
 
     {{-- title field --}}
-    @if (isset($title))
-    <title>{{ $title }}</title>
-    @else
-    <title>Arif Patanduk</title>
-    @endif
+    <title>@yield('title', 'Arif Patanduk')</title>
 </head>
 
 <body>
