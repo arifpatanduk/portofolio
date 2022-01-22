@@ -1,5 +1,5 @@
 @extends('template.layout')
-
+@section('title', 'Social - Arif Patanduk')
 @section('page_content')
 
 <!-- Card -->
