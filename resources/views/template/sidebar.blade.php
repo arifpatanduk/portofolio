@@ -32,13 +32,15 @@
                     {{-- <span class="navbar-header">Account Settings</span> --}}
                     <!-- List -->
                     <ul class="list-unstyled ms-n2 mb-0">
-                        <!-- Nav item -->
                         <li class="nav-item {{ $active == 'profile' ? 'active' : '' }}">
                             <a class="nav-link " href="{{ route('profile') }}"><i class="fe fe-user nav-icon"></i>
                                 Profile
                             </a>
                         </li>
-                        <!-- Nav item -->
+                        <li class="nav-item {{ $active == 'portofolio' ? 'active' : '' }}">
+                            <a class="nav-link " href="{{ route('portofolio') }}"><i
+                                    class="fe fe-activity nav-icon"></i>Portofolio</a>
+                        </li>
                         <li class="nav-item {{ $active == 'social' ? 'active' : '' }}">
                             <a class="nav-link" href="{{ route('social') }}"><i class="fe fe-refresh-cw nav-icon"></i>
                                 Social Profiles
@@ -48,20 +50,13 @@
                             <a class="nav-link" href="{{ route('skills') }}"><i
                                     class="fe fe-bar-chart-2 nav-icon"></i>Skills</a>
                         </li>
-                        <!-- Nav item -->
                         <li class="nav-item {{ $active == 'educations' ? 'active' : '' }}">
                             <a class="nav-link" href="{{ route('educations') }}">
                                 <i class="fe fe-clipboard nav-icon"></i>Educations</a>
                         </li>
-                        <!-- Nav item -->
                         <li class="nav-item {{ $active == 'experiences' ? 'active' : '' }} ">
                             <a class="nav-link" href="{{ route('experiences') }}"><i
                                     class="fe fe-archive nav-icon"></i>Work Experiences</a>
-                        </li>
-                        <!-- Nav item -->
-                        <li class="nav-item">
-                            <a class="nav-link " href="linked-accounts.html"><i
-                                    class="fe fe-activity nav-icon"></i>Portofolio</a>
                         </li>
                     </ul>
                 </div>

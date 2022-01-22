@@ -41,4 +41,10 @@ class PagesController extends Controller
         $active = 'experiences';
         return view('pages.experiences', compact('active'));
     }
+
+    public function portofolio()
+    {
+        $active = 'portofolio';
+        return view('pages.portofolio', compact('active'));
+    }
 }
