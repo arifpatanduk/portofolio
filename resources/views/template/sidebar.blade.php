@@ -45,6 +45,11 @@
                                 Social Profiles
                             </a>
                         </li>
+                        <li class="nav-item {{ $active == 'achievement' ? 'active' : '' }}">
+                            <a class="nav-link" href="{{ route('achievement') }}"><i class="fe fe-award nav-icon"></i>
+                                Achievements
+                            </a>
+                        </li>
                         <li class="nav-item {{ $active == 'skills' ? 'active' : '' }}">
                             <a class="nav-link" href="{{ route('skills') }}"><i
                                     class="fe fe-bar-chart-2 nav-icon"></i>Skills</a>

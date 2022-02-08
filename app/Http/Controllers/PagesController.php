@@ -30,6 +30,12 @@ class PagesController extends Controller
         return view('pages.skills', compact('active'));
     }
 
+    public function achievement()
+    {
+        $active = 'achievement';
+        return view('pages.achievement', compact('active'));
+    }
+
     public function educations()
     {
         $active = 'educations';

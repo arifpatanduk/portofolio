@@ -17,6 +17,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [PagesController::class, 'portofolio'])->name('portofolio');
 Route::get('/profile', [PagesController::class, 'profile'])->name('profile');
 Route::get('/social-profiles', [PagesController::class, 'social'])->name('social');
+Route::get('/achievement', [PagesController::class, 'achievement'])->name('achievement');
 Route::get('/skills', [PagesController::class, 'skills'])->name('skills');
 Route::get('/educations', [PagesController::class, 'educations'])->name('educations');
 Route::get('/experiences', [PagesController::class, 'experiences'])->name('experiences');
